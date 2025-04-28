@@ -1,0 +1,32 @@
+# Define data vectors
+x = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+y = [5, 7, 9, 11, 13, 15, 17, 19, 21, 23]
+
+# Calculate some statistics
+sum_x = vec_average(x)
+max_y = vec_max(y)
+min_x = vec_min(x)
+
+# Perform vector operations
+z = x + y
+w = x * 2
+v = y / 2
+
+# Apply a moving average with window size 3
+moving_avg = vec_average(y, 3)
+
+# Create a basic line plot
+plot(x, y)
+
+# Create a scatter plot
+scatter(x, z)
+
+# Create a histogram of values
+histogram(y, 5)
+
+# Perform clustering on the data
+combined = [x, y]
+clusters = clustering(combined, 2)
+
+# Output the final results
+print(result)
